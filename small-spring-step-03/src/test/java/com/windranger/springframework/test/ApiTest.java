@@ -22,7 +22,7 @@ public class ApiTest {
         beanFactory.registerBeanDefinition("userService", beanDefinition);
 
         // 4.获取bean
-        UserService userService = (UserService) beanFactory.getBean("userService", "小傅哥");
+        UserService userService = (UserService) beanFactory.getBean("userService", "hexc");
         userService.queryUserInfo();
     }
 
@@ -36,7 +36,7 @@ public class ApiTest {
                 return super.hashCode();
             }
         });
-        Object obj = enhancer.create(new Class[]{String.class}, new Object[]{"小傅哥"});
+        Object obj = enhancer.create(new Class[]{String.class}, new Object[]{"hexc"});
         System.out.println(obj);
     }
 
@@ -50,7 +50,7 @@ public class ApiTest {
     public void test_constructor() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, InvocationTargetException {
         Class<UserService> userServiceClass = UserService.class;
         Constructor<UserService> declaredConstructor = userServiceClass.getDeclaredConstructor(String.class);
-        UserService userService = declaredConstructor.newInstance("小傅哥");
+        UserService userService = declaredConstructor.newInstance("hexc");
         System.out.println(userService);
     }
 
@@ -66,7 +66,7 @@ public class ApiTest {
             }
         }
         Constructor<UserService> declaredConstructor = beanClass.getDeclaredConstructor(constructor.getParameterTypes());
-        UserService userService = declaredConstructor.newInstance("小傅哥");
+        UserService userService = declaredConstructor.newInstance("hexc");
         System.out.println(userService);
     }
 
