@@ -3,6 +3,9 @@ package com.windranger.springframework.beans.factory.support;
 import com.windranger.springframework.beans.factory.config.BeanDefinition;
 
 
+/**
+ * @author barry
+ */
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
 
     @Override

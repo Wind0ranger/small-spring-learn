@@ -4,6 +4,9 @@ import com.windranger.springframework.beans.factory.config.BeanDefinition;
 
 import java.lang.reflect.Constructor;
 
+/**
+ * @author barry
+ */
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
 
     InstantiationStrategy instantiationStrategy = new SimpleInstantiationStrategy();

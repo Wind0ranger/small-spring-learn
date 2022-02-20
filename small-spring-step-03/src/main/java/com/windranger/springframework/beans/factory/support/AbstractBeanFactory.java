@@ -5,6 +5,9 @@ import com.windranger.springframework.beans.factory.config.BeanDefinition;
 
 import java.util.Objects;
 
+/**
+ * @author barry
+ */
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 
     @Override

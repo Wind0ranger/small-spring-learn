@@ -1,5 +1,8 @@
 package com.windranger.springframework.beans.factory.config;
 
+/**
+ * @author barry
+ */
 public class BeanDefinition {
 
     public Class beanClass;

@@ -1,6 +1,12 @@
 package com.windranger.springframework.beans.factory.config;
 
-public class BeanDefinition {
+import com.windranger.springframework.beans.BeansException;
+
+/**
+ * @author barry
+ */
+public class BeanDefinition extends BeansException {
+
     private Class beanClass;
 
     public BeanDefinition(Class clazz) {

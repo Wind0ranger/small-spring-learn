@@ -2,8 +2,10 @@ package com.windranger.springframework;
 
 /**
  * Bean对象
+ * @author barry
  */
 public class BeanDefinition {
+
     private Object bean;
 
     public BeanDefinition(Object bean) {

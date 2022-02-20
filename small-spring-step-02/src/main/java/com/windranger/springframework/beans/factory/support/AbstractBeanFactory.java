@@ -5,6 +5,9 @@ import com.windranger.springframework.beans.factory.config.BeanDefinition;
 
 import java.util.Objects;
 
+/**
+ * @author barry
+ */
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 
     @Override
@@ -23,10 +26,18 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
     /**
      * 获取 beanDefinition
      *
+     * @param beanName
      * @return
      */
     public abstract BeanDefinition getBeanDefinition(String beanName);
 
+    /**
+     * 创建 bean对象
+     *
+     * @param beanName
+     * @param beanDefinition
+     * @return
+     */
     public abstract Object createBean(String beanName, BeanDefinition beanDefinition);
 
 }

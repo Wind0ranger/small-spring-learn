@@ -5,6 +5,9 @@ import com.windranger.springframework.beans.factory.config.SingletonBeanRegistry
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author barry
+ */
 public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 
     private Map<String, Object> singleObjects = new HashMap<>();
@@ -14,7 +17,7 @@ public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
         return singleObjects.get(beanName);
     }
 
-    public void addSingleton(String beanName, Object bean) {
+    protected void addSingleton(String beanName, Object bean) {
         singleObjects.put(beanName, bean);
     }
 }
