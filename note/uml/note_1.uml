@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/workspace/small-spring-learn/small-spring-step-01/src/main/java</OriginalElement>
+  <nodes>
+    <node x="0.0" y="170.0">com.windranger.springframework.BeanFactory</node>
+    <node x="78.5" y="0.0">com.windranger.springframework.BeanDefinition</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.windranger.springframework.BeanFactory" target="com.windranger.springframework.BeanDefinition" relationship="TO_MANY">
+      <point x="-84.75" y="-62.5" />
+      <point x="84.75" y="127.0" />
+      <point x="124.0" y="127.0" />
+      <point x="-45.5" y="51.0" />
+    </edge>
+    <edge source="com.windranger.springframework.BeanFactory" target="com.windranger.springframework.BeanDefinition" relationship="DEPENDENCY">
+      <point x="84.75" y="-62.5" />
+      <point x="254.25" y="127.0" />
+      <point x="215.0" y="127.0" />
+      <point x="45.5" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="169.5" y="138.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

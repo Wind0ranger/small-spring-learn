@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/workspace/small-spring-learn/small-spring-step-04/src/main/java</OriginalElement>
+  <nodes>
+    <node x="-27.114025085518733" y="176.83124287343216">com.windranger.springframework.beans.factory.support.AbstractBeanFactory</node>
+    <node x="-51.11402508551873" y="465.90307867730905">com.windranger.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+    <node x="1313.156757010222" y="355.55650379818053">com.windranger.springframework.beans.factory.config.BeanReference</node>
+    <node x="616.0062713797035" y="22.941277080957832">com.windranger.springframework.beans.factory.config.SingletonBeanRegistry</node>
+    <node x="675.3938853981056" y="499.2066517805634">com.windranger.springframework.beans.factory.support.InstantiationStrategy</node>
+    <node x="975.4149705216871" y="355.55650379818053">com.windranger.springframework.beans.PropertyValues</node>
+    <node x="590.0062713797035" y="199.3312428734322">com.windranger.springframework.beans.factory.support.DefaultSingletonBeanRegistry</node>
+    <node x="382.2807840195064" y="913.0">com.windranger.springframework.beans.BeansException</node>
+    <node x="975.4149705216871" y="95.35318390696807">com.windranger.springframework.beans.factory.config.BeanDefinition</node>
+    <node x="-26.114025085518733" y="767.4629418472064">com.windranger.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+    <node x="600.0615735461803" y="802.9629418472064">com.windranger.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+    <node x="1313.156757010222" y="118.35318390696804">com.windranger.springframework.beans.PropertyValue</node>
+    <node x="26.885974914481267" y="11.441277080957818">com.windranger.springframework.beans.factory.BeanFactory</node>
+    <node x="890.3938853981056" y="648.1808616652113">com.windranger.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy</node>
+    <node x="460.39388539810557" y="648.1808616652113">com.windranger.springframework.beans.factory.support.SimpleInstantiationStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.windranger.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy" target="com.windranger.springframework.beans.factory.support.InstantiationStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="1095.3938853981056" y="597.3555391564369" />
+      <point x="880.3938853981056" y="597.3555391564369" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.windranger.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="com.windranger.springframework.beans.factory.config.SingletonBeanRegistry" relationship="REALIZATION">
+      <point x="0.0" y="-62.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.windranger.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="com.windranger.springframework.beans.factory.support.AbstractBeanFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-97.0" />
+      <point x="143.38597491448127" y="474.0" />
+      <point x="143.38597491448127" y="474.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="com.windranger.springframework.beans.factory.support.DefaultListableBeanFactory" target="com.windranger.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" relationship="GENERALIZATION">
+      <point x="-0.46727928285980624" y="-61.70899474761734" />
+      <point x="142.91869563162146" y="707.927023945268" />
+      <point x="143.38597491448127" y="707.927023945268" />
+      <point x="0.0" y="97.0" />
+    </edge>
+    <edge source="com.windranger.springframework.beans.factory.support.AbstractBeanFactory" target="com.windranger.springframework.beans.factory.support.DefaultSingletonBeanRegistry" relationship="GENERALIZATION">
+      <point x="-85.25" y="-85.0" />
+      <point x="58.13597491448127" y="254.0" />
+      <point x="724.5062713797035" y="254.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.windranger.springframework.beans.factory.support.DefaultListableBeanFactory" target="com.windranger.springframework.beans.factory.support.BeanDefinitionRegistry" relationship="REALIZATION">
+      <point x="-84.75" y="-62.5" />
+      <point x="58.63597491448127" y="829.9629418472064" />
+      <point x="769.5615735461803" y="829.9629418472064" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.windranger.springframework.beans.factory.support.AbstractBeanFactory" target="com.windranger.springframework.beans.factory.BeanFactory" relationship="REALIZATION">
+      <point x="85.25" y="-85.0" />
+      <point x="228.63597491448127" y="254.0" />
+      <point x="143.38597491448127" y="254.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.windranger.springframework.beans.factory.support.SimpleInstantiationStrategy" target="com.windranger.springframework.beans.factory.support.InstantiationStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="665.3938853981056" y="597.3555391564369" />
+      <point x="880.3938853981056" y="597.3555391564369" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6949286846275752" showDependencies="false" x="964.555961315522" y="509.88918479068116" />
+  <SelectedNodes>
+    <node>com.windranger.springframework.beans.BeansException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
