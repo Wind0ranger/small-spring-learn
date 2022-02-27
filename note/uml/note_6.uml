@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/workspace/small-spring/small-spring-step-06/src/main/java</OriginalElement>
+  <nodes>
+    <node x="1802.1513074106504" y="416.7964147932929">cn.bugstack.springframework.beans.factory.support.AbstractBeanFactory</node>
+    <node x="1832.7790084137469" y="1782.4842658173693">cn.bugstack.springframework.beans.PropertyValues</node>
+    <node x="54.838707530200054" y="2162.8603040675">cn.bugstack.springframework.core.io.UrlResource</node>
+    <node x="-3.5" y="1512.1704952602302">cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext</node>
+    <node x="1756.7790084137469" y="815.533053404331">cn.bugstack.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+    <node x="-405.28392730705673" y="301.8211758301579">cn.bugstack.springframework.core.io.ResourceLoader</node>
+    <node x="1021.776843434603" y="2061.458121405143">cn.bugstack.springframework.beans.factory.config.BeanFactoryPostProcessor</node>
+    <node x="536.8387075302" y="2139.8603040675">cn.bugstack.springframework.core.io.ClassPathResource</node>
+    <node x="278.33870753020005" y="2337.843130621667">cn.bugstack.springframework.util.ClassUtils</node>
+    <node x="1802.2790084137469" y="1256.7102925351032">cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+    <node x="1832.7790084137469" y="1967.4581214051432">cn.bugstack.springframework.beans.PropertyValue</node>
+    <node x="673.1661184210527" y="-136.96888789417528">cn.bugstack.springframework.beans.factory.BeanFactory</node>
+    <node x="-424.22757303191906" y="2238.8603040675">cn.bugstack.springframework.beans.factory.xml.XmlBeanDefinitionReader</node>
+    <node x="626.6661184210527" y="995.9754646551055">cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory</node>
+    <node x="1500.5052883015635" y="1782.4842658173693">cn.bugstack.springframework.beans.factory.config.BeanDefinition</node>
+    <node x="295.83870753020005" y="2128.3603040675">cn.bugstack.springframework.core.io.FileSystemResource</node>
+    <node x="-337.72757303191906" y="1798.8603040674998">cn.bugstack.springframework.beans.factory.support.BeanDefinitionReader</node>
+    <node x="0.0" y="536.8211758301579">cn.bugstack.springframework.context.ConfigurableApplicationContext</node>
+    <node x="678.1661184210527" y="54.407844885478085">cn.bugstack.springframework.beans.factory.HierarchicalBeanFactory</node>
+    <node x="1617.7790084137469" y="2323.714716927319">cn.bugstack.springframework.beans.factory.support.InstantiationStrategy</node>
+    <node x="47.0" y="301.8211758301579">cn.bugstack.springframework.context.ApplicationContext</node>
+    <node x="-400.28392730705673" y="494.260637713566">cn.bugstack.springframework.core.io.DefaultResourceLoader</node>
+    <node x="1832.7790084137469" y="2152.431976992917">cn.bugstack.springframework.beans.factory.config.BeanReference</node>
+    <node x="1865.6513074106501" y="29.907844885478085">cn.bugstack.springframework.beans.factory.config.SingletonBeanRegistry</node>
+    <node x="1269.6587129158515" y="29.907844885478085">cn.bugstack.springframework.beans.factory.config.AutowireCapableBeanFactory</node>
+    <node x="-93.0" y="736.700099596974">cn.bugstack.springframework.context.support.AbstractApplicationContext</node>
+    <node x="2185.779008413747" y="1129.047090265673">cn.bugstack.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+    <node x="1402.7790084137469" y="2427.714716927319">cn.bugstack.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy</node>
+    <node x="-37.0" y="1350.321175830158">cn.bugstack.springframework.context.support.AbstractXmlApplicationContext</node>
+    <node x="1836.6513074106501" y="237.67236474096876">cn.bugstack.springframework.beans.factory.support.DefaultSingletonBeanRegistry</node>
+    <node x="-437.22757303191906" y="2017.8603040674998">cn.bugstack.springframework.beans.factory.support.AbstractBeanDefinitionReader</node>
+    <node x="626.6661184210527" y="536.8211758301579">cn.bugstack.springframework.beans.factory.config.ConfigurableBeanFactory</node>
+    <node x="1021.776843434603" y="1943.033415466211">cn.bugstack.springframework.beans.factory.config.BeanPostProcessor</node>
+    <node x="295.83870753020005" y="2024.3603040674998">cn.bugstack.springframework.core.io.Resource</node>
+    <node x="-37.0" y="1106.321175830158">cn.bugstack.springframework.context.support.AbstractRefreshableApplicationContext</node>
+    <node x="1832.7790084137469" y="2427.714716927319">cn.bugstack.springframework.beans.factory.support.SimpleInstantiationStrategy</node>
+    <node x="1021.776843434603" y="2175.3603040675">cn.bugstack.springframework.beans.BeansException</node>
+    <node x="143.02786464479584" y="29.907844885478085">cn.bugstack.springframework.beans.factory.ListableBeanFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.bugstack.springframework.core.io.FileSystemResource" target="cn.bugstack.springframework.core.io.Resource" relationship="REALIZATION">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="cn.bugstack.springframework.beans.factory.config.AutowireCapableBeanFactory" relationship="REALIZATION">
+      <point x="-216.4201945266641" y="12.60346796278418" />
+      <point x="1754.2860928381872" y="971.1365213671152" />
+      <point x="1754.2860928381872" y="972.9818160821033" />
+      <point x="1591.4087129158515" y="972.9818160821033" />
+      <point x="107.25" y="38.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.context.support.AbstractXmlApplicationContext" target="cn.bugstack.springframework.context.support.AbstractRefreshableApplicationContext" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.context.support.AbstractApplicationContext" target="cn.bugstack.springframework.context.ConfigurableApplicationContext" relationship="REALIZATION">
+      <point x="1.856527012283891" y="-142.1655809358549" />
+      <point x="142.3565270122839" y="726.3211758301579" />
+      <point x="140.5" y="726.3211758301579" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.config.AutowireCapableBeanFactory" target="cn.bugstack.springframework.beans.factory.BeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1484.1587129158515" y="-6.619584141520193" />
+      <point x="789.1661184210527" y="-6.619584141520193" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.context.support.AbstractRefreshableApplicationContext" target="cn.bugstack.springframework.context.support.AbstractApplicationContext" relationship="GENERALIZATION">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="142.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="cn.bugstack.springframework.beans.factory.config.SingletonBeanRegistry" relationship="REALIZATION">
+      <point x="0.0" y="-62.5" />
+      <point x="1972.1513074106501" y="192.38787503512677" />
+      <point x="1973.5869719140906" y="192.38787503512677" />
+      <point x="1.435664503440421" y="27.80181336148422" />
+    </edge>
+    <edge source="cn.bugstack.springframework.core.io.UrlResource" target="cn.bugstack.springframework.core.io.Resource" relationship="REALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="165.33870753020005" y="2103.3603040675" />
+      <point x="406.33870753020005" y="2103.3603040675" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory" target="cn.bugstack.springframework.beans.factory.support.BeanDefinitionRegistry" relationship="REALIZATION">
+      <point x="-84.5" y="-108.5" />
+      <point x="1942.5760415661643" y="1256.7102925351032" />
+      <point x="1942.5760415661643" y="1339.3870170082348" />
+      <point x="2354.779008413747" y="1339.3870170082348" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.context.ConfigurableApplicationContext" target="cn.bugstack.springframework.context.ApplicationContext" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.xml.XmlBeanDefinitionReader" target="cn.bugstack.springframework.beans.factory.support.AbstractBeanDefinitionReader" relationship="GENERALIZATION">
+      <point x="0.0" y="-96.5" />
+      <point x="0.0" y="85.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.config.ConfigurableBeanFactory" target="cn.bugstack.springframework.beans.factory.HierarchicalBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.ListableBeanFactory" target="cn.bugstack.springframework.beans.factory.BeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="293.02786464479584" y="-6.619584141520193" />
+      <point x="789.1661184210527" y="-6.619584141520193" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.context.support.AbstractApplicationContext" target="cn.bugstack.springframework.core.io.DefaultResourceLoader" relationship="GENERALIZATION">
+      <point x="-120.27648414382367" y="-141.35240579595916" />
+      <point x="20.223515856176334" y="726.3211758301579" />
+      <point x="-290.78392730705673" y="726.3211758301579" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory" target="cn.bugstack.springframework.beans.factory.config.AutowireCapableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="789.1661184210527" y="721.3211758301579" />
+      <point x="1376.9087129158515" y="721.3211758301579" />
+      <point x="-107.25" y="38.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory" target="cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory" relationship="REALIZATION">
+      <point x="-84.5" y="-108.5" />
+      <point x="1886.7790084137469" y="1379.2644840189753" />
+      <point x="789.1661184210527" y="1379.2644840189753" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory" target="cn.bugstack.springframework.beans.factory.ListableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="789.1661184210527" y="722.7549733283879" />
+      <point x="562.2384868421052" y="722.7549733283879" />
+      <point x="562.2384868421052" y="226.32117583015793" />
+      <point x="293.02786464479584" y="226.32117583015793" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.core.io.ClassPathResource" target="cn.bugstack.springframework.core.io.Resource" relationship="REALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="674.8387075302" y="2103.3603040675" />
+      <point x="406.33870753020005" y="2103.3603040675" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.context.ApplicationContext" target="cn.bugstack.springframework.beans.factory.ListableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="140.5" y="226.32117583015793" />
+      <point x="293.02786464479584" y="226.32117583015793" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.AbstractBeanFactory" target="cn.bugstack.springframework.beans.factory.config.ConfigurableBeanFactory" relationship="REALIZATION">
+      <point x="-85.0" y="-131.5" />
+      <point x="1887.1513074106504" y="580.0951549752666" />
+      <point x="870.4161184210527" y="580.0951549752666" />
+      <point x="81.25" y="50.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.ConfigurableListableBeanFactory" target="cn.bugstack.springframework.beans.factory.config.ConfigurableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="789.1661184210527" y="655.7162076923246" />
+      <point x="788.159782865235" y="655.7162076923246" />
+      <point x="-1.0063355558177136" y="54.02914798206291" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy" target="cn.bugstack.springframework.beans.factory.support.InstantiationStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="1607.7790084137469" y="2402.714716927319" />
+      <point x="1822.7790084137469" y="2402.714716927319" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory" target="cn.bugstack.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" relationship="GENERALIZATION">
+      <point x="0.4315293792669763" y="-105.31421580126903" />
+      <point x="1971.7105377930138" y="1179.121672969717" />
+      <point x="1971.2790084137469" y="1179.121672969717" />
+      <point x="0.0" y="143.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.AbstractBeanFactory" target="cn.bugstack.springframework.beans.factory.support.DefaultSingletonBeanRegistry" relationship="GENERALIZATION">
+      <point x="-0.172784871117301" y="-123.21957744579299" />
+      <point x="1971.978522539533" y="411.9935078945124" />
+      <point x="1972.1513074106501" y="411.9935078945124" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.HierarchicalBeanFactory" target="cn.bugstack.springframework.beans.factory.BeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.AbstractBeanDefinitionReader" target="cn.bugstack.springframework.beans.factory.support.BeanDefinitionReader" relationship="REALIZATION">
+      <point x="0.0" y="-85.5" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="cn.bugstack.springframework.beans.factory.support.AbstractBeanFactory" relationship="GENERALIZATION">
+      <point x="-107.25" y="-143.0" />
+      <point x="1864.0290084137469" y="1047.224821787281" />
+      <point x="1972.1513074106504" y="1047.224821787281" />
+      <point x="0.0" y="131.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.context.support.ClassPathXmlApplicationContext" target="cn.bugstack.springframework.context.support.AbstractXmlApplicationContext" relationship="GENERALIZATION">
+      <point x="0.0" y="-74.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="cn.bugstack.springframework.core.io.DefaultResourceLoader" target="cn.bugstack.springframework.core.io.ResourceLoader" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.support.SimpleInstantiationStrategy" target="cn.bugstack.springframework.beans.factory.support.InstantiationStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="2037.7790084137469" y="2402.714716927319" />
+      <point x="1822.7790084137469" y="2402.714716927319" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cn.bugstack.springframework.beans.factory.config.ConfigurableBeanFactory" target="cn.bugstack.springframework.beans.factory.config.SingletonBeanRegistry" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="789.1661184210527" y="226.32117583015793" />
+      <point x="1918.9013074106501" y="226.32117583015793" />
+      <point x="-53.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.32171680117388113" showDependencies="false" x="570.5476876334105" y="710.180567397975" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
