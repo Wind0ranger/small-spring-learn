@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean class="com.windranger.event.ContextRefreshedEventListener"/>
+
+    <bean class="com.windranger.event.CustomEventListener"/>
+
+    <bean class="com.windranger.event.ContextClosedEventListener"/>
+
+</beans>
